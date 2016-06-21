@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-quickstart",
+  "name": "nodebb-plugin-email-confirm-move-group",
   "version": "0.0.1",
   "description": "NodeBB plugin to move user to a new group upon email confirmation",
   "main": "library.js",
