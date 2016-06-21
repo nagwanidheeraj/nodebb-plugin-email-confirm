@@ -31,6 +31,6 @@ EmailConfirm.addAdminNavigation = function(header, callback) {
 
 EmailConfirm.confirm = function(uid, callback) {
 	winston.info('User with uid: ' + uid + ' confirmed email...');
-}
+};
 
-module.exports = plugin;
+module.exports = EmailConfirm;
