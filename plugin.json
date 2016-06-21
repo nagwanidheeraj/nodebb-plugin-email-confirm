@@ -1,14 +1,11 @@
 {
-	"id": "nodebb-plugin-quickstart",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"id": "nodebb-plugin-email-confirm-move-group",
+	"url": "https://github.com/nagwanidheeraj/nodebb-plugin-email-confirm-move-group",
 	"library": "./library.js",
 	"hooks": [
-		{
-			"hook": "static:app.load", "method": "init"
-		},
-		{
-			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
-		}
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "action:user.email.confirmed", "medhot": "confirm" }
 	],
 	"staticDirs": {
 		"static": "./static"
